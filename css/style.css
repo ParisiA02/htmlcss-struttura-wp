@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 60%;
+    height: 100px;
+    margin: 20px auto 20px;
+    /* debugging rules */
+    background-color: rgb(229, 121, 230);
+}
+section{
+    width: 60%;
+    margin: 0 auto 20px;
+    /* debugging rules */
+    height: 350px;
+    background-color: rgb(225, 214, 122);
+}
+.container{
+    margin: 0 auto;
+    /* debugging rules */
+    height: 450px;
+    background-color: rgb(0, 134, 255);
+}
+.clearfix::after{
+    content: none;
+    display: table;
+    clear: both;
+}
+.bar{
+    width: 100%;
+    height: 60px;
+    /* debugging rules */
+    background-color: rgb(171, 207, 231);
+}
+.block{
+    width: 20%;
+    float: left;
+    height: 360px;
+    /* debugging rules */
+    margin: 15px 0;
+    background-color: rgb(171, 207, 231);    
+}
+.mainblock{
+    width:58%;
+    margin: 15px 1%;
+    float: left;
+    /* debugging rules */
+    height: 360px;
+    background-color: rgb(171, 207, 231);
+    
+}
+footer{
+    width: 60%;
+    height: 40px;
+    margin: 3.5px auto 20px;
+    /* debugging rules*/
+    background-color: rgb(136, 1, 254);
+}
